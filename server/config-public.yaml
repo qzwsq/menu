@@ -1,0 +1,17 @@
+version: "1.0.0"
+
+llm:
+  provider: deepseek
+  api_key: "xxxxxxx"
+  api_base: https://api.deepseek.com
+  model: deepseek-v4-flash
+  temperature: 0.7
+  max_tokens: 4096
+
+db:
+  host: 127.0.0.1
+  port: 3306
+  user: root
+  password: "xxxxx"
+  database: menu
+  echo: false
